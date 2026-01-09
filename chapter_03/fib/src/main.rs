@@ -11,12 +11,12 @@ fn main() {
 fn fib_recursive(n: u32) -> u32 {
     if n < 2 {
         n
-    } else  {
-        fib_recursive(n-1) + fib_recursive(n-2)
+    } else {
+        fib_recursive(n - 1) + fib_recursive(n - 2)
     }
 }
 
-fn fib_iterative(n:u32) -> u32 {
+fn fib_iterative(n: u32) -> u32 {
     if n < 2 {
         n
     } else {
@@ -24,7 +24,7 @@ fn fib_iterative(n:u32) -> u32 {
         let mut f2 = 1;
 
         for _ in 2..=n {
-            (f1,f2) = (f2,f1+f2);
+            (f1, f2) = (f2, f1 + f2);
         }
         f2
     }
