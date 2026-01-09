@@ -3,4 +3,5 @@ resolver = "2"
 
 members = [
     "chapter_01/helloWorld",
+    "chapter_02/guessing_game",
 ]
