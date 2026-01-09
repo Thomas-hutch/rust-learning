@@ -12,6 +12,6 @@ fn get_extension(filename: &str) -> &str {
 fn main() {
     let file = "image.png.txt";
     let ext = get_extension(file);
-    
-    println!("Extension: {}", ext); 
+
+    println!("Extension: {}", ext);
 }
