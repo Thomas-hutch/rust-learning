@@ -9,7 +9,10 @@ fn main() {
             chain_number = number;
         }
     }
-    println!("The number {} has the longest chain: {} steps", chain_number, chain_length);
+    println!(
+        "The number {} has the longest chain: {} steps",
+        chain_number, chain_length
+    );
 }
 
 fn count_steps(number: u32) -> u32 {
@@ -19,7 +22,7 @@ fn count_steps(number: u32) -> u32 {
         if number % 2 == 0 {
             number /= 2;
         } else {
-            number = (number * 3) + 1;            
+            number = (number * 3) + 1;
         }
         count += 1;
     }

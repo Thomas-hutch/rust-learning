@@ -4,5 +4,9 @@ resolver = "2"
 members = [
     "chapter_01/helloWorld",
     "chapter_02/guessing_game",
+    "chapter_03/christmas",
+    "chapter_03/collatz",
     "chapter_03/fib",
+    "chapter_04/archive_log",
+    "chapter_04/file_extension", "chapter_04/payload", "chapter_05/file_descriptor", "chapter_05/server_rack", "chapter_06/packet_decoder", "chapter_06/virtual_cpu",
 ]

@@ -1,8 +1,8 @@
 fn main() {
     let f = File::new("log.txt");
-    
+
     f.read();
-    f.close(); 
+    f.close();
 }
 
 struct File {
