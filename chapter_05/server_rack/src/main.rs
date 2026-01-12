@@ -40,7 +40,7 @@ impl Rack {
             capacity,
         }
     }
-    fn add_server(&mut self, server: Server) -> bool{
+    fn add_server(&mut self, server: Server) -> bool {
         if self.servers.len() < self.capacity {
             self.servers.push(server);
             true
