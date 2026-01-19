@@ -14,5 +14,5 @@ members = [
        "chapter_05/server_rack",
         "chapter_06/packet_decoder",
          "chapter_06/virtual_cpu", 
-          "chapter_07/packet_decoder_refactored",
+          "chapter_07/packet_decoder_refactored", "chapter_07/refactor_assignment",
 ]

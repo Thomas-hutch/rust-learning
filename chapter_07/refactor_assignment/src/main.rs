@@ -8,7 +8,7 @@ fn main() {
         # This is a comment
         timeout = 30
     "#;
-    
+
     match load_config(input) {
         Ok(config) => {
             println!("Name: {:?}", config.get("name"));
