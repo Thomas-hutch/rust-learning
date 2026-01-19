@@ -1,5 +1,5 @@
-use crate::messages::{Message, LOGIN, ALERT, PING};
 use crate::error::ParseError;
+use crate::messages::{ALERT, LOGIN, Message, PING};
 
 pub fn parse(buffer: &[u8]) -> Result<Message, ParseError> {
     if buffer.is_empty() {

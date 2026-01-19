@@ -1,4 +1,4 @@
-use packet_decoder_refactored::{Message, parse, ParseError, LOGIN, ALERT, PING};
+use packet_decoder_refactored::{ALERT, LOGIN, Message, PING, ParseError, parse};
 
 fn main() {
     let username = "Thomas".as_bytes();
